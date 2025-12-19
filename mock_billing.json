@@ -1,82 +1,27 @@
 [
   {
-    "month": "2025-01",
-    "service": "EC2",
-    "usage_quantity": 720,
-    "unit": "hours",
-    "cost_inr": 1500,
-    "desc": "Web Server"
+    "service": "Compute (e.g., EC2/Lambda)",
+    "cost_inr": 15000,
+    "desc": "Cost for running Node.js backend servers or Lambda functions to handle requests from 10,000 users."
   },
   {
-    "month": "2025-01",
-    "service": "RDS",
-    "usage_quantity": 720,
-    "unit": "hours",
-    "cost_inr": 1200,
-    "desc": "Database Server"
+    "service": "Database (e.g., RDS)",
+    "cost_inr": 10000,
+    "desc": "Cost for PostgreSQL database service to store user data, orders, and other application information."
   },
   {
-    "month": "2025-01",
-    "service": "S3",
-    "usage_quantity": 100,
-    "unit": "GB",
-    "cost_inr": 500,
-    "desc": "Object Storage"
+    "service": "Storage (e.g., S3)",
+    "cost_inr": 5000,
+    "desc": "Cost for Object Storage to host images, videos, and other static content used by the app."
   },
   {
-    "month": "2025-01",
-    "service": "CloudWatch",
-    "usage_quantity": 1000,
-    "unit": "metrics",
-    "cost_inr": 300,
-    "desc": "Monitoring Tools"
+    "service": "Monitoring/Logging",
+    "cost_inr": 4000,
+    "desc": "Cost for Monitoring Tool to keep track of system performance, uptime, and logs for debugging and analysis."
   },
   {
-    "month": "2025-02",
-    "service": "EC2",
-    "usage_quantity": 750,
-    "unit": "hours",
-    "cost_inr": 1600,
-    "desc": "Web Server"
-  },
-  {
-    "month": "2025-02",
-    "service": "RDS",
-    "usage_quantity": 750,
-    "unit": "hours",
-    "cost_inr": 1250,
-    "desc": "Database Server"
-  },
-  {
-    "month": "2025-02",
-    "service": "S3",
-    "usage_quantity": 120,
-    "unit": "GB",
-    "cost_inr": 600,
-    "desc": "Object Storage"
-  },
-  {
-    "month": "2025-02",
-    "service": "CloudWatch",
-    "usage_quantity": 1200,
-    "unit": "metrics",
-    "cost_inr": 350,
-    "desc": "Monitoring Tools"
-  },
-  {
-    "month": "2025-03",
-    "service": "EC2",
-    "usage_quantity": 800,
-    "unit": "hours",
-    "cost_inr": 1700,
-    "desc": "Web Server"
-  },
-  {
-    "month": "2025-03",
-    "service": "RDS",
-    "usage_quantity": 800,
-    "unit": "hours",
-    "cost_inr": 1300,
-    "desc": "Database Server"
+    "service": "Networking/Data Transfer",
+    "cost_inr": 6000,
+    "desc": "Cost for data transfer between different components of the app and external services, including ingress and egress traffic."
   }
 ]
