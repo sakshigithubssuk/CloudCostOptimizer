@@ -1,45 +1,52 @@
 {
-  "analysis": {
-    "total_monthly_cost": 4150,
-    "budget": 50000,
-    "is_over_budget": false
-  },
+  "total_cost_inr": 36000,
+  "budget_inr": 50000,
+  "variance_inr": 14000,
+  "over_budget": false,
   "recommendations": [
     {
-      "title": "Optimize EC2 Instance Types",
-      "service": "EC2",
-      "potential_savings": 1500,
+      "title": "Optimize Compute Resources",
+      "current_cost": 15000,
+      "potential_savings": 3000,
       "cloud_providers": [
         "AWS",
-        "Azure"
-      ]
+        "Azure",
+        "GCP"
+      ],
+      "action_plan": "Review and adjust instance types and scaling policies to reduce compute costs."
     },
     {
-      "title": "Review RDS Instance Size",
-      "service": "RDS",
-      "potential_savings": 1250,
+      "title": "Database Cost Optimization",
+      "current_cost": 10000,
+      "potential_savings": 2000,
       "cloud_providers": [
         "AWS",
-        "Azure"
-      ]
+        "Azure",
+        "GCP"
+      ],
+      "action_plan": "Evaluate database usage patterns and consider using reserved instances or spot instances for cost savings."
     },
     {
-      "title": "Consider Data Transfer Optimization for S3",
-      "service": "S3",
-      "potential_savings": 500,
+      "title": "Reduce Storage Costs",
+      "current_cost": 5000,
+      "potential_savings": 1000,
       "cloud_providers": [
         "AWS",
-        "Azure"
-      ]
+        "Azure",
+        "GCP"
+      ],
+      "action_plan": "Implement lifecycle policies to transition infrequently accessed data to cheaper storage classes."
     },
     {
-      "title": "Evaluate CloudWatch Metrics Usage",
-      "service": "CloudWatch",
-      "potential_savings": 350,
+      "title": "Monitor and Optimize Networking",
+      "current_cost": 6000,
+      "potential_savings": 1000,
       "cloud_providers": [
         "AWS",
-        "Azure"
-      ]
+        "Azure",
+        "GCP"
+      ],
+      "action_plan": "Analyze network traffic and optimize data transfer routes to minimize costs."
     }
   ]
 }
