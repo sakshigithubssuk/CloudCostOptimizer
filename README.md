@@ -18,7 +18,19 @@ The goal of this assignment was to create a backend system that uses an LLM to a
 *   **Environment:** `.env` for API security
 
 ## 🚀 How to Run Locally
-
+ ** python main.py
+ ** choice 1:
+    *Enter project description(make sure description should be like a sentence not a list for eg:We are building a food delivery app for 10,000 users per month. Budget: ₹50,000 per month. Tech stack: Node.js backend, PostgreSQL database, object storage for images, monitoring, and basic analytics. Non-functional requirements: scalability, cost efficiency, uptime monitoring. )
+   *press Enter
+** choice 2:Profile generator
+    * after writting 2 press Enter
+** choice 3:mock_biling
+    * after writting 3 press Enter
+** choice 4:cost_optimization & recommendation
+    * after writting 4 press Enter
+** choice 5:Exit
+👍DONE!!!
+  
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/sakshigithubssuk/CloudCostOptimizer.git
