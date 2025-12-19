@@ -20,22 +20,28 @@ The goal of this assignment was to create a backend system that uses an LLM to a
 ## 🚀 How to Run Locally
  ** python main.py
 
-## Usage Steps
+###  Usage Steps
 Follow the interactive menu options in sequence:
-Select Choice 1:
-Enter your project description when prompted.
-Note: Ensure the description is a full sentence, not a bulleted list.
-Example: "We are building a food delivery app for 10,000 users per month. Budget: ₹50,000 per month. Tech stack: Node.js backend, PostgreSQL database, object storage for images, monitoring, and basic analytics. Non-functional requirements: scalability, cost efficiency, uptime monitoring."
-Press Enter.
-Select Choice 2 (Profile Generator):
-Type 2 and press Enter to parse the description into a JSON profile.
-Select Choice 3 (Mock Billing):
-Type 3 and press Enter to generate synthetic billing data.
-Select Choice 4 (Cost Optimization & Recommendation):
-Type 4 and press Enter to receive AI-powered cost-saving suggestions.
-Select Choice 5 (Exit):
-Type 5 to close the application.
-👍 DONE!!!
+
+1. **Select Choice 1:**
+   * Enter your project description when prompted.
+   * **Note:** Ensure the description is a full sentence, not a bulleted list.
+   * **Example:** "We are building a food delivery app for 10,000 users per month. Budget: ₹50,000 per month. Tech stack: Node.js backend, PostgreSQL database, object storage for images, monitoring, and basic analytics. Non-functional requirements: scalability, cost efficiency, uptime monitoring."
+   * Press **Enter**.
+
+2. **Select Choice 2 (Profile Generator):**
+   * Type `2` and press **Enter** to parse the description into a JSON profile.
+
+3. **Select Choice 3 (Mock Billing):**
+   * Type `3` and press **Enter** to generate synthetic billing data.
+
+4. **Select Choice 4 (Cost Optimization & Recommendation):**
+   * Type `4` and press **Enter** to receive AI-powered cost-saving suggestions.
+
+5. **Select Choice 5 (Exit):**
+   * Type `5` to close the application.
+
+👍 **DONE!!!**
   
 ### 1. Clone the repository
 ```bash
