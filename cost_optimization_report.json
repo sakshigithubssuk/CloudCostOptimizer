@@ -1,0 +1,45 @@
+{
+  "analysis": {
+    "total_monthly_cost": 4150,
+    "budget": 50000,
+    "is_over_budget": false
+  },
+  "recommendations": [
+    {
+      "title": "Optimize EC2 Instance Types",
+      "service": "EC2",
+      "potential_savings": 1500,
+      "cloud_providers": [
+        "AWS",
+        "Azure"
+      ]
+    },
+    {
+      "title": "Review RDS Instance Size",
+      "service": "RDS",
+      "potential_savings": 1250,
+      "cloud_providers": [
+        "AWS",
+        "Azure"
+      ]
+    },
+    {
+      "title": "Consider Data Transfer Optimization for S3",
+      "service": "S3",
+      "potential_savings": 500,
+      "cloud_providers": [
+        "AWS",
+        "Azure"
+      ]
+    },
+    {
+      "title": "Evaluate CloudWatch Metrics Usage",
+      "service": "CloudWatch",
+      "potential_savings": 350,
+      "cloud_providers": [
+        "AWS",
+        "Azure"
+      ]
+    }
+  ]
+}

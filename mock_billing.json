@@ -1,0 +1,82 @@
+[
+  {
+    "month": "2025-01",
+    "service": "EC2",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 1500,
+    "desc": "Web Server"
+  },
+  {
+    "month": "2025-01",
+    "service": "RDS",
+    "usage_quantity": 720,
+    "unit": "hours",
+    "cost_inr": 1200,
+    "desc": "Database Server"
+  },
+  {
+    "month": "2025-01",
+    "service": "S3",
+    "usage_quantity": 100,
+    "unit": "GB",
+    "cost_inr": 500,
+    "desc": "Object Storage"
+  },
+  {
+    "month": "2025-01",
+    "service": "CloudWatch",
+    "usage_quantity": 1000,
+    "unit": "metrics",
+    "cost_inr": 300,
+    "desc": "Monitoring Tools"
+  },
+  {
+    "month": "2025-02",
+    "service": "EC2",
+    "usage_quantity": 750,
+    "unit": "hours",
+    "cost_inr": 1600,
+    "desc": "Web Server"
+  },
+  {
+    "month": "2025-02",
+    "service": "RDS",
+    "usage_quantity": 750,
+    "unit": "hours",
+    "cost_inr": 1250,
+    "desc": "Database Server"
+  },
+  {
+    "month": "2025-02",
+    "service": "S3",
+    "usage_quantity": 120,
+    "unit": "GB",
+    "cost_inr": 600,
+    "desc": "Object Storage"
+  },
+  {
+    "month": "2025-02",
+    "service": "CloudWatch",
+    "usage_quantity": 1200,
+    "unit": "metrics",
+    "cost_inr": 350,
+    "desc": "Monitoring Tools"
+  },
+  {
+    "month": "2025-03",
+    "service": "EC2",
+    "usage_quantity": 800,
+    "unit": "hours",
+    "cost_inr": 1700,
+    "desc": "Web Server"
+  },
+  {
+    "month": "2025-03",
+    "service": "RDS",
+    "usage_quantity": 800,
+    "unit": "hours",
+    "cost_inr": 1300,
+    "desc": "Database Server"
+  }
+]
